@@ -18,6 +18,7 @@ target/
 !.mocharc.yaml
 
 # --- Safety net
+Cargo.lock
 dist/
 __pycache__/
 node_modules/
