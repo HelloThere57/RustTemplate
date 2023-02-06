@@ -6,7 +6,7 @@ mod error;
 mod prelude;
 mod utils;
 
-fn main() -> Result<()> {
+fn main() -> std::result::Result<(), Box<dyn std::error::Error>> {
 	println!("Hello, world!");
 
 	Ok(())
